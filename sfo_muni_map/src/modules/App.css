@@ -1,0 +1,21 @@
+svg {
+  border: 1px solid rgb(17, 13, 13);
+  background-color: rgba(116, 119, 124, 0.171);
+}
+.sfomap-section {
+  display: table-cell;    
+  width: 70vw;
+  height: 90vh;
+  float: left;  
+  overflow-y: hidden;  
+  overflow-x: hidden;
+  padding: 4px 0 0 4px;    
+}
+
+.neighborhoods, .streets, .arteries, .freeways{
+  fill: none;
+  stroke: rgb(168, 117, 117);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
